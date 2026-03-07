@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gizlilik Politikası — Smart Car Diary</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root { --bg:#0f1117;--surface:#181c27;--border:#252a38;--accent:#3d7eff;--accent2:#00d4aa;--text:#e8eaf0;--muted:#6b7280; }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;padding:40px 20px 80px;}
+  .container{max-width:760px;margin:0 auto;}
+  .back{display:inline-flex;align-items:center;gap:6px;color:var(--muted);text-decoration:none;font-size:.85rem;margin-bottom:40px;transition:color .2s;}
+  .back:hover{color:var(--accent);}
+  .doc-title{font-family:'DM Serif Display',serif;font-size:2.4rem;color:var(--text);margin-bottom:6px;}
+  .doc-sub{color:var(--muted);font-size:.85rem;margin-bottom:8px;}
+  .lang-badge{display:inline-block;background:var(--surface);border:1px solid var(--border);border-radius:20px;padding:4px 12px;font-size:.75rem;color:var(--accent2);margin-bottom:40px;}
+  h2{font-family:'DM Serif Display',serif;font-size:1.4rem;color:var(--accent);margin:36px 0 12px;padding-bottom:8px;border-bottom:1px solid var(--border);}
+  h3{font-size:1rem;font-weight:500;color:var(--text);margin:24px 0 8px;}
+  p{color:#c5c9d6;font-size:.92rem;line-height:1.8;font-weight:300;margin-bottom:12px;}
+  ul{margin:8px 0 16px 20px;color:#c5c9d6;font-size:.92rem;line-height:1.8;font-weight:300;}
+  .info-box{background:#1a2235;border:1px solid #2a3a5c;border-left:3px solid var(--accent2);border-radius:8px;padding:16px 20px;margin:16px 0;font-size:.88rem;color:#a8b8d8;line-height:1.7;}
+  .no-collect{background:#1a2a1a;border:1px solid #2a4a2a;border-left:3px solid #4caf50;border-radius:8px;padding:16px 20px;margin:16px 0;font-size:.88rem;color:#a8d8a8;line-height:1.7;}
+  .section-en{border-top:2px solid var(--border);margin-top:60px;padding-top:40px;}
+  .en-label{display:inline-block;background:var(--accent);color:white;font-size:.72rem;font-weight:500;letter-spacing:1px;padding:3px 10px;border-radius:4px;margin-bottom:20px;}
+  footer{margin-top:60px;padding-top:24px;border-top:1px solid var(--border);color:var(--muted);font-size:.78rem;text-align:center;}
+  footer a{color:var(--accent);text-decoration:none;}
+  a{color:var(--accent);}
+</style>
+</head>
+<body>
+<div class="container">
+  <a href="index.html" class="back">← Tüm Belgeler</a>
+
+  <div class="doc-title">Gizlilik Politikası</div>
+  <div class="doc-sub">Privacy Policy — Smart Car Diary</div>
+  <div class="lang-badge">TR + EN · Son güncelleme: Mart 2026</div>
+
+  <div class="info-box">Temel ilke: Uygulamaya girdiğiniz tüm veriler yalnızca cihazınızda saklanır. Geliştirici bu verilere hiçbir şekilde erişemez.</div>
+
+  <h2>1. Genel Bilgi</h2>
+  <p>Bu Gizlilik Politikası, Smart Car Diary uygulamasının veri işleme pratiklerini açıklar. Uygulama yerel-öncelikli (local-first) ve gizlilik odaklı bir yapıda tasarlanmıştır.</p>
+
+  <h2>2. Toplanan Veriler</h2>
+  <h3>Kullanıcı Tarafından Girilen Veriler (Yalnızca Cihazda)</h3>
+  <ul>
+    <li>Araç bilgileri: plaka, marka, model, yıl, kilometre</li>
+    <li>Harcama kayıtları: tarih, tutar (₺), kilometre, açıklama</li>
+    <li>Bakım kayıtları: parça tipi, tarih, kilometre</li>
+    <li>Hatırlatıcı ayarları</li>
+    <li>Uygulama tercihleri: tema, dil</li>
+  </ul>
+  <p>Bu veriler SQLite ile cihazda saklanır. Uygulama silindiğinde kalıcı olarak yok edilir.</p>
+
+  <h3>Otomatik Toplanan</h3>
+  <ul>
+    <li>Cihaz dili: Varsayılan dili belirlemek için bir kez okunur, depolanmaz</li>
+    <li>Onboarding durumu: Yalnızca yerel bir bayrak</li>
+  </ul>
+
+  <h2>3. Üçüncü Taraf Hizmetleri</h2>
+  <h3>Google AdMob</h3>
+  <p>Ücretsiz kullanıcılara reklam sunmak için kullanılır. Kişiselleştirilmemiş reklam yapılandırması aktif olsa da AdMob bağımsız olarak şunları toplayabilir: reklam tanımlayıcısı (GAID/IDFA), IP adresi, cihaz bilgisi. iOS 14.5+ için ATT izni istenir.</p>
+  <p>Google Gizlilik Politikası: <a href="https://policies.google.com/privacy" target="_blank">policies.google.com/privacy</a></p>
+
+  <h3>RevenueCat</h3>
+  <p>Abonelik yönetimi için kullanılır. Anonim kullanıcı kimliği, satın alma olayları ve cihaz platformunu işler.</p>
+  <p>RevenueCat Gizlilik Politikası: <a href="https://www.revenuecat.com/privacy" target="_blank">revenuecat.com/privacy</a></p>
+
+  <h2>4. Toplanmayan Veriler</h2>
+  <div class="no-collect">
+    ✓ Ad, e-posta, telefon numarası &nbsp;|&nbsp; ✓ Konum / GPS<br>
+    ✓ Kamera veya mikrofon &nbsp;|&nbsp; ✓ Kişiler veya takvim<br>
+    ✓ Biyometrik veri &nbsp;|&nbsp; ✓ Sağlık verisi
+  </div>
+
+  <h2>5. Veri Güvenliği</h2>
+  <p>Tüm kullanıcı verileri cihazın uygulama sandbox'ında saklanır. Geliştirici bu verilere erişemez. Ödeme bilgileri Apple veya Google tarafından yönetilir, Geliştirici'ye iletilmez.</p>
+
+  <h2>6. Veri Silme</h2>
+  <p>Uygulamayı sildiğinizde tüm yerel veriler kalıcı olarak yok edilir. Uygulama içinden Ayarlar → Tüm Verileri Sil seçeneğini de kullanabilirsiniz.</p>
+
+  <h2>7. Çocukların Gizliliği</h2>
+  <p>Uygulama 18 yaş altı bireylere yönelik değildir ve onlardan bilerek veri toplamaz.</p>
+
+  <h2>8. İletişim</h2>
+  <p><a href="mailto:privacy@smartcardiary.app">privacy@smartcardiary.app</a></p>
+
+  <!-- ENGLISH -->
+  <div class="section-en">
+    <div class="en-label">ENGLISH</div>
+
+    <div class="info-box">Core principle: All data you enter is stored exclusively on your device. The Developer cannot access, view, or retrieve this data.</div>
+
+    <h2>1. Overview</h2>
+    <p>This Privacy Policy describes how Smart Car Diary handles your information. The App operates on a local-first, privacy-by-design principle.</p>
+
+    <h2>2. Data We Collect</h2>
+    <h3>User-Entered Data (Device-Only)</h3>
+    <ul>
+      <li>Vehicle info: license plate, make, model, year, mileage</li>
+      <li>Expense records: date, amount (₺), odometer, description</li>
+      <li>Maintenance records: part type, date, mileage</li>
+      <li>Reminder settings, app preferences (theme, language)</li>
+    </ul>
+    <p>This data is stored in SQLite on your device. It is permanently deleted when you uninstall the App.</p>
+
+    <h3>Automatically Collected</h3>
+    <ul>
+      <li>Device locale: Read once to set default language, not stored or transmitted</li>
+      <li>Onboarding status: Local boolean flag only</li>
+    </ul>
+
+    <h2>3. Third-Party Services</h2>
+    <h3>Google AdMob</h3>
+    <p>Used to serve ads to free-tier users. Even with non-personalized ads, AdMob may independently collect: advertising identifiers (GAID/IDFA), IP address, device info. iOS 14.5+ users will be prompted for ATT consent.</p>
+    <p>Google Privacy Policy: <a href="https://policies.google.com/privacy" target="_blank">policies.google.com/privacy</a></p>
+
+    <h3>RevenueCat</h3>
+    <p>Used for subscription management. Processes an anonymous app-generated user ID, purchase events, and device platform.</p>
+    <p>RevenueCat Privacy Policy: <a href="https://www.revenuecat.com/privacy" target="_blank">revenuecat.com/privacy</a></p>
+
+    <h2>4. Data We Do NOT Collect</h2>
+    <div class="no-collect">
+      ✓ Name, email, phone number &nbsp;|&nbsp; ✓ Location / GPS<br>
+      ✓ Camera or microphone &nbsp;|&nbsp; ✓ Contacts or calendar<br>
+      ✓ Biometric data &nbsp;|&nbsp; ✓ Health data
+    </div>
+
+    <h2>5. Data Security</h2>
+    <p>All user data resides in your device's app sandbox. The Developer cannot access it. Payment information is handled entirely by Apple or Google.</p>
+
+    <h2>6. Data Deletion</h2>
+    <p>Uninstalling the App permanently deletes all local data. You can also use Settings → Delete All Data within the App.</p>
+
+    <h2>7. Children's Privacy</h2>
+    <p>The App is not directed at individuals under 18 and does not knowingly collect data from minors.</p>
+
+    <h2>8. Contact</h2>
+    <p><a href="mailto:privacy@smartcardiary.app">privacy@smartcardiary.app</a></p>
+  </div>
+
+  <footer>
+    <div>Smart Car Diary — com.basarogur.smartcardiary · © 2026 Başar Oğur</div>
+    <div style="margin-top:6px"><a href="index.html">← Tüm Belgeler</a></div>
+  </footer>
+</div>
+</body>
+</html>

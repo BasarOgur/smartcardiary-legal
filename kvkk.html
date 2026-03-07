@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KVKK Aydınlatma Metni — Smart Car Diary</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root{--bg:#0f1117;--surface:#181c27;--border:#252a38;--accent:#3d7eff;--accent2:#00d4aa;--text:#e8eaf0;--muted:#6b7280;}
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;padding:40px 20px 80px;}
+  .container{max-width:760px;margin:0 auto;}
+  .back{display:inline-flex;align-items:center;gap:6px;color:var(--muted);text-decoration:none;font-size:.85rem;margin-bottom:40px;transition:color .2s;}
+  .back:hover{color:var(--accent);}
+  .doc-title{font-family:'DM Serif Display',serif;font-size:2.4rem;color:var(--text);margin-bottom:6px;}
+  .doc-sub{color:var(--muted);font-size:.85rem;margin-bottom:8px;}
+  .lang-badge{display:inline-block;background:var(--surface);border:1px solid var(--border);border-radius:20px;padding:4px 12px;font-size:.75rem;color:var(--accent2);margin-bottom:40px;}
+  h2{font-family:'DM Serif Display',serif;font-size:1.4rem;color:var(--accent);margin:36px 0 12px;padding-bottom:8px;border-bottom:1px solid var(--border);}
+  p{color:#c5c9d6;font-size:.92rem;line-height:1.8;font-weight:300;margin-bottom:12px;}
+  ul{margin:8px 0 16px 20px;color:#c5c9d6;font-size:.92rem;line-height:1.8;font-weight:300;}
+  .info-box{background:#1a2235;border:1px solid #2a3a5c;border-left:3px solid var(--accent);border-radius:8px;padding:16px 20px;margin:16px 0;font-size:.88rem;color:#a8b8d8;line-height:1.7;}
+  .rights-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin:16px 0;}
+  .right-item{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:14px 16px;font-size:.85rem;color:#c5c9d6;line-height:1.6;}
+  .right-item strong{display:block;color:var(--accent2);font-size:.8rem;margin-bottom:4px;}
+  footer{margin-top:60px;padding-top:24px;border-top:1px solid var(--border);color:var(--muted);font-size:.78rem;text-align:center;}
+  footer a{color:var(--accent);text-decoration:none;}
+  a{color:var(--accent);}
+</style>
+</head>
+<body>
+<div class="container">
+  <a href="index.html" class="back">← Tüm Belgeler</a>
+
+  <div class="doc-title">KVKK Aydınlatma Metni</div>
+  <div class="doc-sub">6698 Sayılı Kişisel Verilerin Korunması Kanunu Kapsamında</div>
+  <div class="lang-badge">TR + EN · Son güncelleme: Mart 2026</div>
+
+  <h2>1. Veri Sorumlusu</h2>
+  <p><strong>Ad:</strong> Başar Oğur</p>
+  <p><strong>Uygulama:</strong> Smart Car Diary (com.basarogur.smartcardiary)</p>
+  <p><strong>İletişim:</strong> <a href="mailto:kvkk@smartcardiary.app">kvkk@smartcardiary.app</a></p>
+
+  <h2>2. İşlenen Kişisel Veriler ve Amaçları</h2>
+  <div class="info-box">Veri sorumlusu olarak tarafımızca uygulama veritabanına kaydedilen hiçbir kişisel veri sunucu veya üçüncü taraflarla paylaşılmamaktadır. Veriler yalnızca cihazınızda bulunmaktadır.</div>
+  <ul>
+    <li><strong>Araç plaka numarası:</strong> Araç takibi amacıyla yalnızca cihazda saklanır</li>
+    <li><strong>Harcama ve bakım kayıtları:</strong> Kişisel araç gideri analizi için yalnızca cihazda işlenir</li>
+    <li><strong>Google AdMob aracılığıyla reklam tanımlayıcısı (GAID/IDFA):</strong> Reklam gösterimi amacıyla Google tarafından bağımsız olarak işlenir</li>
+    <li><strong>RevenueCat aracılığıyla anonim kullanıcı kimliği:</strong> Abonelik doğrulaması için RevenueCat tarafından işlenir</li>
+  </ul>
+
+  <h2>3. Hukuki Dayanak</h2>
+  <ul>
+    <li>KVKK Madde 5/2-c: Sözleşmenin ifasıyla doğrudan ilgili olmak</li>
+    <li>KVKK Madde 5/2-f: Veri sorumlusunun meşru menfaatleri</li>
+    <li>Üçüncü taraf SDK'lar için: KVKK Madde 5/1 kapsamında açık rıza</li>
+  </ul>
+
+  <h2>4. Yurt Dışına Veri Aktarımı</h2>
+  <p>Geliştirici tarafından yurt dışına veri aktarımı yapılmamaktadır. Ancak entegre üçüncü taraf SDK'lar kendi sorumlulukları çerçevesinde aktarım gerçekleştirebilir:</p>
+  <ul>
+    <li><strong>Google AdMob:</strong> ABD sunucularına — Standart Sözleşme Maddeleri kapsamında</li>
+    <li><strong>RevenueCat:</strong> ABD sunucularına — GDPR Standart Sözleşme Maddeleri kapsamında</li>
+  </ul>
+
+  <h2>5. Veri Saklama Süresi</h2>
+  <ul>
+    <li>Uygulama yerel verileri: Uygulama silinene kadar cihazda saklanır</li>
+    <li>Google AdMob verileri: Google politikasına göre (max. 26 ay)</li>
+    <li>RevenueCat verileri: RevenueCat politikasına göre</li>
+  </ul>
+
+  <h2>6. Haklarınız (KVKK Madde 11)</h2>
+  <div class="rights-grid">
+    <div class="right-item"><strong>Bilgi Alma</strong>Verilerinizin işlenip işlenmediğini öğrenme</div>
+    <div class="right-item"><strong>Erişim</strong>İşlenen veriler hakkında bilgi talep etme</div>
+    <div class="right-item"><strong>Düzeltme</strong>Yanlış verilerin düzeltilmesini isteme</div>
+    <div class="right-item"><strong>Silme</strong>Koşullar oluştuğunda verilerin silinmesini isteme</div>
+    <div class="right-item"><strong>İtiraz</strong>Otomatik analiz sonuçlarına itiraz etme</div>
+    <div class="right-item"><strong>Tazminat</strong>Kanuna aykırı işlem nedeniyle zarar talebinde bulunma</div>
+  </div>
+  <p>Uygulama verilerini silmek için: Ayarlar → Tüm Verileri Sil seçeneğini kullanabilirsiniz.</p>
+
+  <h2>7. Başvuru Yolu</h2>
+  <p>Haklarınızı kullanmak için <a href="mailto:kvkk@smartcardiary.app">kvkk@smartcardiary.app</a> adresine e-posta gönderebilirsiniz. Başvurunuz en geç 30 gün içinde yanıtlanacaktır.</p>
+  <p>Google AdMob ve RevenueCat tarafından işlenen veriler için bu şirketlerin kendi gizlilik portallarına başvurmanız gerekmektedir:</p>
+  <ul>
+    <li>Google: <a href="https://myaccount.google.com/data-and-privacy" target="_blank">myaccount.google.com/data-and-privacy</a></li>
+    <li>RevenueCat: <a href="https://app.revenuecat.com/settings/account" target="_blank">app.revenuecat.com/settings/account</a></li>
+  </ul>
+
+  <div style="border-top:2px solid var(--border);margin-top:60px;padding-top:40px;">
+    <div style="display:inline-block;background:var(--accent);color:white;font-size:.72rem;font-weight:500;letter-spacing:1px;padding:3px 10px;border-radius:4px;margin-bottom:20px;">ENGLISH</div>
+
+    <h2>1. Data Controller</h2>
+    <p><strong>Name:</strong> Başar Oğur</p>
+    <p><strong>App:</strong> Smart Car Diary (com.basarogur.smartcardiary)</p>
+    <p><strong>Contact:</strong> <a href="mailto:kvkk@smartcardiary.app">kvkk@smartcardiary.app</a></p>
+
+    <h2>2. Personal Data Processed & Purposes</h2>
+    <div class="info-box">No personal data stored in the app database is shared with any server or third party by the Developer. All data exists only on your device.</div>
+    <ul>
+      <li><strong>Vehicle license plate:</strong> Stored locally for vehicle tracking purposes only</li>
+      <li><strong>Expense and maintenance records:</strong> Processed locally for personal cost analysis</li>
+      <li><strong>Ad identifier (GAID/IDFA) via Google AdMob:</strong> Processed independently by Google for ad delivery</li>
+      <li><strong>Anonymous user ID via RevenueCat:</strong> Processed by RevenueCat for subscription verification</li>
+    </ul>
+
+    <h2>3. Legal Basis</h2>
+    <ul>
+      <li>KVKK Article 5/2-c: Directly related to the performance of a contract</li>
+      <li>KVKK Article 5/2-f: Legitimate interests of the data controller</li>
+      <li>For third-party SDKs: Explicit consent under KVKK Article 5/1</li>
+    </ul>
+
+    <h2>4. International Data Transfers</h2>
+    <p>The Developer does not transfer data internationally. However, integrated third-party SDKs may transfer data under their own responsibility:</p>
+    <ul>
+      <li><strong>Google AdMob:</strong> To US servers — under Standard Contractual Clauses</li>
+      <li><strong>RevenueCat:</strong> To US servers — under GDPR Standard Contractual Clauses</li>
+    </ul>
+
+    <h2>5. Retention Periods</h2>
+    <ul>
+      <li>Local app data: Retained on device until the app is uninstalled</li>
+      <li>Google AdMob data: Per Google policy (max. 26 months)</li>
+      <li>RevenueCat data: Per RevenueCat policy</li>
+    </ul>
+
+    <h2>6. Your Rights (KVKK Article 11)</h2>
+    <div class="rights-grid">
+      <div class="right-item"><strong>Information</strong>Learn whether your data is being processed</div>
+      <div class="right-item"><strong>Access</strong>Request information about processed data</div>
+      <div class="right-item"><strong>Correction</strong>Request correction of inaccurate data</div>
+      <div class="right-item"><strong>Deletion</strong>Request deletion when conditions are met</div>
+      <div class="right-item"><strong>Objection</strong>Object to automated analysis results</div>
+      <div class="right-item"><strong>Compensation</strong>Claim damages for unlawful processing</div>
+    </div>
+    <p>To delete app data: Settings → Delete All Data within the App.</p>
+
+    <h2>7. How to Apply</h2>
+    <p>To exercise your rights, email <a href="mailto:kvkk@smartcardiary.app">kvkk@smartcardiary.app</a>. Your request will be answered within 30 days.</p>
+    <p>For data processed by Google AdMob or RevenueCat, please contact those companies directly:</p>
+    <ul>
+      <li>Google: <a href="https://myaccount.google.com/data-and-privacy" target="_blank">myaccount.google.com/data-and-privacy</a></li>
+      <li>RevenueCat: <a href="https://app.revenuecat.com/settings/account" target="_blank">app.revenuecat.com/settings/account</a></li>
+    </ul>
+  </div>
+
+  <footer>
+    <div>Smart Car Diary — com.basarogur.smartcardiary · © 2026 Başar Oğur</div>
+    <div style="margin-top:6px"><a href="index.html">← Tüm Belgeler</a></div>
+  </footer>
+</div>
+</body>
+</html>

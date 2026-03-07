@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smart Car Diary — Legal</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0f1117;
+    --surface: #181c27;
+    --border: #252a38;
+    --accent: #3d7eff;
+    --accent2: #00d4aa;
+    --text: #e8eaf0;
+    --muted: #6b7280;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'DM Sans', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+  }
+  .logo {
+    font-family: 'DM Serif Display', serif;
+    font-size: 2.2rem;
+    color: var(--text);
+    margin-bottom: 6px;
+    letter-spacing: -0.5px;
+  }
+  .logo span { color: var(--accent); }
+  .subtitle {
+    color: var(--muted);
+    font-size: 0.9rem;
+    margin-bottom: 48px;
+    font-weight: 300;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 16px;
+    width: 100%;
+    max-width: 800px;
+  }
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 28px 24px;
+    text-decoration: none;
+    color: var(--text);
+    transition: border-color 0.2s, transform 0.2s;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .card:hover {
+    border-color: var(--accent);
+    transform: translateY(-2px);
+  }
+  .card-icon { font-size: 1.6rem; margin-bottom: 4px; }
+  .card-title {
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.1rem;
+    color: var(--text);
+  }
+  .card-sub {
+    font-size: 0.8rem;
+    color: var(--muted);
+    font-weight: 300;
+  }
+  .card-lang {
+    font-size: 0.72rem;
+    color: var(--accent2);
+    margin-top: 4px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+  }
+  footer {
+    margin-top: 48px;
+    color: var(--muted);
+    font-size: 0.78rem;
+    text-align: center;
+    line-height: 1.8;
+  }
+  footer a { color: var(--accent); text-decoration: none; }
+</style>
+</head>
+<body>
+  <div class="logo">Smart Car <span>Diary</span></div>
+  <div class="subtitle">Akıllı Araç Günlüğü — Legal Documents</div>
+
+  <div class="grid">
+    <a href="terms.html" class="card">
+      <div class="card-icon">📋</div>
+      <div class="card-title">Kullanım Koşulları</div>
+      <div class="card-sub">Terms of Service</div>
+      <div class="card-lang">TR + EN</div>
+    </a>
+    <a href="privacy.html" class="card">
+      <div class="card-icon">🔒</div>
+      <div class="card-title">Gizlilik Politikası</div>
+      <div class="card-sub">Privacy Policy</div>
+      <div class="card-lang">TR + EN</div>
+    </a>
+    <a href="kvkk.html" class="card">
+      <div class="card-icon">🇹🇷</div>
+      <div class="card-title">KVKK Aydınlatma Metni</div>
+      <div class="card-sub">Data Protection Disclosure</div>
+      <div class="card-lang">TR + EN</div>
+    </a>
+    <a href="subscription.html" class="card">
+      <div class="card-icon">💳</div>
+      <div class="card-title">Abonelik Koşulları</div>
+      <div class="card-sub">Subscription & Sales Terms</div>
+      <div class="card-lang">TR + EN</div>
+    </a>
+  </div>
+
+  <footer>
+    <div>Smart Car Diary — com.basarogur.smartcardiary</div>
+    <div>İletişim: <a href="mailto:support@smartcardiary.app">support@smartcardiary.app</a></div>
+    <div style="margin-top:8px">© 2026 Başar Oğur. Tüm hakları saklıdır.</div>
+  </footer>
+</body>
+</html>
